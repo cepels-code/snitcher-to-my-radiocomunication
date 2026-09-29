@@ -1,4 +1,6 @@
-> Otvoriť túto stránku na [https://cepels-code.github.io/snitcher-to-my-radiocomunication/](https://cepels-code.github.io/snitcher-to-my-radiocomunication/)
+> Open this [https://cepels-code.github.io/snitcher-to-my-radiocomunication/](https://cepels-code.github.io/snitcher-to-my-radiocomunication/)
+>
+> And link to my communication [https://cepels-code.github.io/RADIOCOMUNICATION_BBC_MICROBIT/]
 
 # Radio Communication - Receiver
 
