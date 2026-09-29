@@ -1,24 +1,13 @@
-
 > Otvoriť túto stránku na [https://cepels-code.github.io/snitcher-to-my-radiocomunication/](https://cepels-code.github.io/snitcher-to-my-radiocomunication/)
 
-## Použiť ako rozšírenie
+# Radio Communication - Receiver
 
-Tento odkladací priestor možno pridať ako **rozšírenie** v aplikácii MakeCode.
+A dedicated radio receiver project for BBC micro:bit (compatible with both V1 and V2) using MakeCode TypeScript.
 
-* otvoriť [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* kliknite na **Nový projekt**
-* kliknite na **Rozšírenia** v ponuke ozubeného kolieska
-* vyhľadať **https://github.com/cepels-code/snitcher-to-my-radiocomunication** a importovať
+## How It Works
 
-## Upraviť tento projekt
-
-Ak chcete upraviť tento odkladací priestor v aplikácii MakeCode.
-
-* otvoriť [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* kliknite na **Importovať** a potom na **Importovať adresu URL**
-* prilepte **https://github.com/cepels-code/snitcher-to-my-radiocomunication** a kliknite na tlačidlo importu
-
-#### Metadáta (používané na vyhľadávanie, vykresľovanie)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+This project listens for incoming radio transmissions on **Group 1**:
+* **Displays Letters/Strings:** Automatically scrolls or displays received text on the 5x5 LED matrix.
+* **Clears Screen:** Clears the display when receiving the string `"CLEAR"`.
+* **Startup Check:** Displays a checkmark (`✓`) on power-up to confirm it is active and ready to receive.
+* **No Transmitter Actions:** All button and logo inputs are disabled to ensure pure receiver operation.
